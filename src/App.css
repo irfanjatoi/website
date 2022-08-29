@@ -1,0 +1,186 @@
+.App {
+  background-image: url(./images/site\ background.jpg);
+  background-size: cover;
+  height: 200rem;
+}
+
+.App-logo {
+  width: 10rem;
+  height: auto;
+  background-image: url(./images/deNoah_Logo.jpg);
+  background-size: 100%;
+}
+
+.App-header1 {
+  display: grid;
+  grid-template-columns: 600px 10% 0.1fr 0.1fr 0.1fr 0.3fr 0.5fr;
+  margin: 10px;
+  background-color: rgb(46, 46, 48);
+  color: rgb(129, 25, 177);
+  border-radius: 5px;
+}
+
+.App-link {
+  text-align-last: right;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-color: #61dafb;
+  color: white;
+  text-align-last: center;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  margin: 5px;
+}
+
+.container-2 {
+  font-style: italic;
+  background-color: transparent;
+  pointer-events: auto;
+  color: rgb(236, 240, 247);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  height: 45rem;
+}
+
+.h4-p {
+  max-width: 60rem;
+  color: #61dafb;
+}
+
+.c2-b {
+  display: grid;
+  grid-template-columns: 10% 0.2fr 0.3fr 0.1fr;
+  
+  margin: 100px;
+}
+
+.container-3 {
+  display: grid;
+  grid-template-columns: 5% 0.8fr;
+  grid-template-rows: 10% 1fr;
+  background-image: url(./images/futuristic-factory.jpg);
+  background-size: cover;
+  color: purple;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  height: 45rem;
+}
+
+.c3h2 {
+  line-height: 0px;
+}
+.c3h4-p {
+  max-width: 40rem;
+  color: rgb(247, 244, 247);
+  grid-column: 3 / 6;
+}
+
+.container-4 {
+  display: grid;
+  color: #800080;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  height: 45rem;
+  margin: 5px;
+  padding: 10px;
+}
+
+.c4i1 {
+  display: flex;
+  font-style: italic;
+  text-align: center;
+  justify-content: center;
+  max-width: 15rem;
+  min-height: 50px;
+  border-style: inset;
+  border-color: rgb(114, 9, 109);
+  border-radius: 5px;
+  margin: 10px;
+  padding-left: 5px;
+}
+
+.c4iframe {
+  grid-template-columns: max-content;
+  grid-column: 2;
+  grid-row: 1 / 10;
+  height: 25rem;
+  width: 50rem;
+  border: #800080;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: #222;
+  padding-top: 2rem;
+  justify-content: left;
+  margin: 5px;
+  padding: 5px;
+}
+
+div#POSP {
+  background-color: white;
+}
+div#TAM {
+  background-color: white;
+}
+div#EEST {
+  background-color: white;
+}
+
+.Container-5 {
+  height: 30rem;
+  width: 50rem;
+  background: blue;
+  padding: 5px;
+}
+
+.c5h1 {
+  display: block;
+  color: purple;
+  margin: 10px;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #222;
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.footer_comp > h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ccc;
+  margin-bottom: 16px;
+}
+.footer_comp > p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #789;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer_comp > p:hover {
+  color: #ccc;
+}
+
+.footer_comp_grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_comp_grid > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer_comp_grid > h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ccc;
+  margin-bottom: 16px;
+}
